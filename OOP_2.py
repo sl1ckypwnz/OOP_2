@@ -12,5 +12,4 @@ class Autobus(Transport):
     return super ().seating_capacity (capacity = 50)
 
 School_bus = Autobus("Renaul Logan", 180, 12)
-
 print(School_bus.seating_capacity())
